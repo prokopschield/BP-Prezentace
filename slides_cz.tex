@@ -143,6 +143,26 @@
   \end{center}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Použité technologie}
+  \begin{columns}[c]
+    \column{0.77\textwidth}
+    \textbf{Protokol je postaven na}
+    \begin{itemize}
+      \item Hashovacích funkcích \emph{BLAKE3} a \emph{SHA-256}
+      \item Systém šifrování \emph{ChaCha20-Poly1305}
+      \item \emph{Deflate} kompresi
+    \end{itemize}
+    \pause
+    \textbf{Implementace dále využívá}
+    \begin{itemize}
+      \item Programovací jazyk \emph{Rust}
+      \item Systém \emph{Iroh} pro peer-to-peer komunikaci
+      \item Perzistentní hashmapu pro ukládání dat
+    \end{itemize}
+    \column{0.2\textwidth}
+  \end{columns}
+\end{frame}
 
 %%%%%%%%                    04 - Výsledky práce                     %%%%%%%%
 %---------------------------------------------------------------------------
