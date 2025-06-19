@@ -137,21 +137,10 @@
 % - Titulek slajdu "Podstatné informace o řešení" je hodně generický. Ve skutečné Vaší prezentaci bude daleko lepší použít specifický titulek na každém ze slajdů, například: "Schéma neuronové sítě pro detekci frňáků", "Návrh nekonečného automatu", "Vytvořená datová sada" apod.
 
 \begin{frame}
-  \frametitle{Podstatné informace o řešení}
-  \centering\includegraphics[width=0.8\textwidth]{img/template-Schema.pdf}
-  \begin{equation}
-      \mathbf{a}_t = \sum_{i=1}^{L}\alpha_{t,i}\mathbf{f}_{t,i}^{*}
-  \end{equation}
-  kde $\alpha_{t,i}$ počítá \emph{softmax}:
-  \begin{align}
-      \alpha_{t,i} &= \frac{\exp(r_{t,i})}{\sum_{k=1}{L}\exp(r_{t,k})} 
-      \\
-      r_{t,i} &= W^a \tanh\left( W^h \mathbf{h}_{t-1} + W^f\mathbf{f}_{t,i}^{*} + b \right)
-  \end{align}
-\end{frame}
-
-\begin{frame}\frametitle{Podstatné informace o řešení}
-  \makebox[\linewidth]{\includegraphics[width=\paperwidth]{img/template-Screenshot.png}}
+  \frametitle{Ukládání dat}
+  \begin{center}
+    \includegraphics[width=\textwidth]{img/03-storage.png}
+  \end{center}
 \end{frame}
 
 
